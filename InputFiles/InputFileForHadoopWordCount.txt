@@ -1,0 +1,14 @@
+This is input file for hadoop word count project
+Hadoop is product of Apache Foundation
+Hadoop is very powerful framework to implement Big Data
+Hadoop consists of 2 parts HDFS and MapReduce
+This project counts number of occurences of words in this file
+As a first step this file gets stored in HDFS
+In second step file will be processed to count words
+Second step number of sub steps as below
+a. Driver programme runs and  configure job name, mapper and reducer classes
+b. Record Reader reads the input file and gives one line at a time to mapper programme as record
+c. Mapper makes key value pairs of words with word as key and its occurence as value
+d. Shuffling club similar words in key value pairs where key is again word and value as array of its occurence
+e. Sorting sort the words. Note: Sorting do not happen for default mapper and reducer
+f. Reducer club all the words finally in the form of key value words

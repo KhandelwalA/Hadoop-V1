@@ -1,0 +1,8 @@
+C:\\Workspace\\Hadoop_V1\\WordCount\\wordCount\\InputFiles\\InputFileForHadoopWordCount.txt
+
+Tutorial
+http://stackoverflow.com/questions/18123144/missing-server-jvm-java-jre7-bin-server-jvm-dll
+
+
+Command to execute MapReduce
+ bin/hadoop jar C:/Workspace/Hadoop_V1/WordCount/wordCount/target/wordCount-0.1-SNAPSHOT.jar com.khandelwal.hadoopV1.driver.WordCount HadoopWordCountInputFile HadoopWordCountOutputDir
